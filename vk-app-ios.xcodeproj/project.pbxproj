@@ -56,15 +56,39 @@
 		838A25B528CB579A00308CCC /* vk-app-ios */ = {
 			isa = PBXGroup;
 			children = (
-				838A25B628CB579A00308CCC /* AppDelegate.swift */,
-				838A25B828CB579A00308CCC /* SceneDelegate.swift */,
-				838A25BA28CB579A00308CCC /* ViewController.swift */,
-				838A25BC28CB579A00308CCC /* Main.storyboard */,
-				838A25BF28CB579B00308CCC /* Assets.xcassets */,
-				838A25C128CB579B00308CCC /* LaunchScreen.storyboard */,
-				838A25C428CB579B00308CCC /* Info.plist */,
+				839E112128CB634500F42827 /* Core */,
+				839E112328CB639A00F42827 /* Screens */,
+				839E112228CB637500F42827 /* Resources */,
 			);
 			path = "vk-app-ios";
+			sourceTree = "<group>";
+		};
+		839E112128CB634500F42827 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				838A25B628CB579A00308CCC /* AppDelegate.swift */,
+				838A25B828CB579A00308CCC /* SceneDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		839E112228CB637500F42827 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				838A25C128CB579B00308CCC /* LaunchScreen.storyboard */,
+				838A25C428CB579B00308CCC /* Info.plist */,
+				838A25BF28CB579B00308CCC /* Assets.xcassets */,
+				838A25BC28CB579A00308CCC /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		839E112328CB639A00F42827 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				838A25BA28CB579A00308CCC /* ViewController.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,7 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = TZDHKNH4SM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "vk-app-ios/Info.plist";
@@ -299,7 +323,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "potapov-team.vk-app-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -314,7 +338,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = TZDHKNH4SM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "vk-app-ios/Info.plist";
@@ -327,7 +351,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "potapov-team.vk-app-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
